@@ -10,10 +10,15 @@
     border: 1px solid lightgrey;
     box-shadow:  3px 3px 5px 0 rgba(191,191,191, 0.53);
     cursor: pointer;
+}
+
+.video:hover {
+    transform: scale(1.05);
     transition: transform 250ms ease-in;
 }
-.video:hover {
-    transform: scale(1.04);
+.thumbnail:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in;
 }
 
 .thumbnail {
@@ -24,6 +29,7 @@
 .metadata {
     margin-left: 0.2em;
 }
+
 .title,
 .channel {
     margin: 0;
